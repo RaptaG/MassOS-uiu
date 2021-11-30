@@ -10,6 +10,7 @@
 - An automated upgrader of the script (I also added to check for upgrades of MassOS    after the script is upgraded)
 
 Both of the scripts need __root permissions__ in order for them to work, otherwise they won't.
+
 (Also, the upgrade script is saved in `/usr/bin` so you don't have to run it locally, if everything goes OK with the installation progress, just run `upgrade` in the terminal)
 
 ## Installation

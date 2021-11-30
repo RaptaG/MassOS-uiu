@@ -16,10 +16,12 @@ Both of the scripts need __root permissions__ in order for them to work, otherwi
 ## Installation
 
 Install `installer.sh` from the releases page.
+
 This will do everything for you automatically.
 
 ## Upgrading
-Install `upgrade.sh`, also from the releases page
+Install `upgrade.sh`, also from the releases page.
+
 This is gonna upgrade the script, and also use it, in order to check for system upgrades
 
 ## Releated

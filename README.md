@@ -3,7 +3,6 @@
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-
 ## Features
 
 - An automated installer of the script
@@ -11,7 +10,7 @@
 
 Both of the scripts need __root permissions__ in order for them to work, otherwise they won't.
 
-(Also, the upgrade script is saved in `/usr/bin` so you don't have to run it locally, if everything goes OK with the installation progress, just run `upgrade` in the terminal)
+(Also, the upgrade script is saved in `/usr/bin` so you don't have to run it locally, if everything goes OK with the installation progress, just run `sudo upgrade` in the terminal)
 
 ## Installation
 

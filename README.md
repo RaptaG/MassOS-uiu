@@ -1,27 +1,23 @@
 # MassOS-uiu
-## An installer and an upgrader for the `massos-upgrade` script
+## A very useful Utility for MassOS System upgrades
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 ## Features
 
-- An automated installer of the script
-- An automated upgrader of the script (I also added to check for upgrades of MassOS    after the script is upgraded)
+- Installing massos-upgrade inside `/usr/bin/`
+- Notifications if a system upgrade is out
+- Auto checking for upgrades to the `massos-upgrade` utility 
+- A system shortcut of `massos-upgrade`, for easier access on system upgrades
 
-Both of the scripts need __root permissions__ in order for them to work, otherwise they won't.
 
-(Also, the upgrade script is saved in `/usr/bin` so you don't have to run it locally, if everything goes OK with the installation progress, just run `sudo upgrade` in the terminal)
 
 ## Installation
 
-Install `installer.sh` from the releases page.
+Install `install.sh` from the releases page.
 
 This will do everything for you automatically.
 
-## Upgrading
-Install `upgrade.sh`, also from the releases page.
-
-This is gonna upgrade the script, and also use it, in order to check for system upgrades
 
 ## Releated
 

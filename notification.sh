@@ -1,11 +1,13 @@
 #!/bin/bash
-uiu-up
-uiu-massos-release.sh
+'/usr/local/bin/uiu-up'
+cd /tmp/
+curl -Os https://raw.githubusercontent.com/TheSonicMaster/MassOS/main/utils/massos-release
 diff /etc/massos-release /tmp/massos-release &>/dev/null
   if [ $? -ne 1 ]; then
-  	rm /tmp/massos-release
+  	cd /tmp/
+  	rm massos-release
     exit 0
   fi
-
-notify-send 'MassOS Upgrade' 'A new release MassOS was found!' -u critical -i system-upgrade
-rm /tmp/massos-release
+notify-send 'MassOS Upgrade' 'A new release of MassOS was found!' -u critical -i system-upgrade
+cd /tmp/
+rm massos-release

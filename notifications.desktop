@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=Upgrade Notifications
-Comment=Upgrade Notifications
-GenericName=Upgrade Notifications
-Exec=uiu-notify
-Hidden=true

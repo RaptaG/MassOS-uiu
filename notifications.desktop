@@ -1,6 +1,12 @@
 [Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
 Type=Application
-Name=Upgrade Notifications
+Name=upgrade-notifications
+Comment=Notifications for system upgrades
 Exec=uiu-notify
 OnlyShowIn=XFCE;
-NoDisplay=true
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=true

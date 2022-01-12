@@ -1,5 +1,4 @@
 #!/bin/bash
-'/usr/local/bin/uiu-up'
 cd /tmp/
 curl -Os https://raw.githubusercontent.com/TheSonicMaster/MassOS/main/utils/massos-release
 diff /etc/massos-release /tmp/massos-release &>/dev/null

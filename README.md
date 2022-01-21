@@ -1,7 +1,6 @@
 # MassOS-uiu
 ## A very useful Utility for MassOS System upgrades
 
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 ## Features
 
@@ -10,7 +9,7 @@
 - Auto checking for upgrades to the `massos-upgrade` utility 
 - A system shortcut of `massos-upgrade`, for easier access on system upgrades
 
-
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 ## Installation
 

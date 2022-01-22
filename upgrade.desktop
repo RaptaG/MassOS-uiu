@@ -2,7 +2,7 @@
 Name=System Upgrade
 Comment=MassOS Upgrader
 GenericName=System Upgrader
-Exec=sudo upgrade
+Exec=sudo '/usr/local/bin/uiu-up' | sudo upgrade
 Icon=system-upgrade
 Terminal=true
 StartupNotify=true

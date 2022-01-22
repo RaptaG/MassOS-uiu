@@ -8,8 +8,10 @@
 cd /usr/bin/
 rm upgrade
 
+# Downloading the resource without terminal output
+git clone https://github.com/TheSonicMaster/massos-upgrade.git /tmp/upgrade > /dev/null 2>&1
+
 # For this part of the code check installer.sh
-git clone https://github.com/TheSonicMaster/massos-upgrade.git /tmp/upgrade
 cd /tmp/upgrade/
 mv massos-upgrade upgrade
 cp upgrade /usr/bin/

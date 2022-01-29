@@ -13,13 +13,30 @@
 
 ## Installation
 
-Install `install.sh` from the releases page.
+Install `install.sh` from the releases page and run:
 
-This will do everything for you automatically.
+```
+sudo ./install.sh
+```
 
+After the installation is completed, you need to reboot your system either graphically or with the following command:
+
+```
+sudo reboot now
+```
+
+## Uninstalling
+
+Install `uninstall.sh` this time and run:
+
+```
+sudo ./uninstall.sh
+```
+
+A reboot after the removal of the utility is also needed
 
 ## Releated
 
-[The Sonic Master's Github](https://github.com/TheSonicMaster)
-
 [MassOS](https://github.com/TheSonicMaster/MassOS)
+
+[The Sonic Master's Github](https://github.com/TheSonicMaster)

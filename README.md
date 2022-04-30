@@ -1,4 +1,4 @@
-# MassOS-uiu
+# MassOS-uiu (Archived because of the [Upgrader](https://github.com/MassOS-Linux/MassOS/wiki/Upgrading-MassOS))
 ## A very useful Utility for MassOS System upgrades
 
 
@@ -40,3 +40,6 @@ A reboot after the removal of the utility is also needed
 [MassOS](https://github.com/TheSonicMaster/MassOS)
 
 [The Sonic Master's Github](https://github.com/TheSonicMaster)
+
+-----------------------------------------------------------------
+_(Either way nobody ever used my scripts)_
